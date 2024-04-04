@@ -10,8 +10,8 @@ const Cart = () => {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button size={"sm"} variant={"ghost"} className='relative' >
-                    <ShoppingBasket className='h-5 w-5' />
+                <Button size={"icon"} variant={"ghost"} className='relative' >
+                    <ShoppingBasket className='h-7 w-7' />
                     <span className='absolute top-0 right-0 w-3 h-3 rounded-full backdrop-blur-3xl text-orange-500 flex items-center justify-center p-1'>
                         2
                     </span>
