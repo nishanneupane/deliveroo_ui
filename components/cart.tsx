@@ -3,8 +3,8 @@ import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTrigger } from
 import { Minus, Plus, ShoppingBasket, Trash } from 'lucide-react'
 import { Button } from './ui/button'
 import { ScrollArea } from './ui/scroll-area'
-import { products } from '@/app/(marketing)/page'
 import Image from 'next/image'
+import { products } from '@/lib/constants'
 
 const Cart = () => {
     return (
